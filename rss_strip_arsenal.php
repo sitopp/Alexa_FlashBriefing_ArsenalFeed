@@ -108,28 +108,28 @@ function month_format ($MM){
         $MM='04';
         break;
     case ("May") :
-        $MM='04';
-        break;
-    case ("Jun") :
         $MM='05';
         break;
-    case ("Jul") :
+    case ("Jun") :
         $MM='06';
         break;
-    case ("Aug") :
+    case ("Jul") :
         $MM='07';
         break;
-    case ("Sep") :
+    case ("Aug") :
         $MM='08';
         break;
-    case ("Oct") :
+    case ("Sep") :
         $MM='09';
         break;
-    case ("Nov") :
+    case ("Oct") :
         $MM='10';
         break;
-    case ("Dec") :
+    case ("Nov") :
         $MM='11';
+        break;
+    case ("Dec") :
+        $MM='12';
         break;
     default :
         $MM='12';
